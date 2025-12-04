@@ -63,6 +63,75 @@ table {
 }
 
 /* GLOBAL STYLES (MOBILE FIRST (SMALL) */
+header {
+
+}
+
+nav {
+
+}
+
+h2 {
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 24px;
+}
+
+.expertise h2 {
+    text-align: center;
+}
+.expertise, .offers {
+    margin-top: 3rem;
+}
+
+.expertise h2, .offers h2 {
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 1.25rem;
+}
+
+.card {
+    background-color: #007BFF;
+    padding: 24px;
+    border-radius: 12px;
+    margin-bottom: 24px;
+    box-shadow: rgba(0, 0, 0, 0.12);
+}
+
+.card h3 {
+    color: #EAEAEA;
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.card p {
+    margin: 0;
+    color: #EAEAEA;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* MIN-WIDTH OF THE PAGE SHOULD NOT GO BELOW 400PX */
 body {
