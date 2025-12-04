@@ -116,11 +116,55 @@ p {
     color: #EAEAEA;
 }
 
+.results {
+    background-color: #007BFF;
+    padding: 24px;
+    color: #EAEAEA;
+}
 
+.results h2 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: xx-large;
+    margin-bottom: 24px;
+}
 
+.results p {
+    font-size: medium;
+    line-height: 1.6;
+    margin-bottom: 24px;
+    max-width: 600px;
+}
 
+.results-table {
+    width:max-content;
+    border-collapse: collapse;
+    margin-bottom: 24px;
+    font-size: medium;
+}
 
+.results-table thead th {
+    background-color: #000000;
+    padding: 10px;
+    text-align: left;
+    color: #EAEAEA;
+    font-weight: bold;
+}
 
+.results-table td {
+  padding: 1rem;
+  background: #000000;
+  border-bottom: 1px solid #333333;
+  color: #EAEAEA;
+}
+
+.results-table tr:nth-child(even) td {
+    background-color: #333333;
+}
+
+.results .results-table {
+    width: 80vw;
+}
 
 
 
