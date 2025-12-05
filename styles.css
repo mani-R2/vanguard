@@ -64,11 +64,19 @@ table {
 
 /* GLOBAL STYLES (MOBILE FIRST (SMALL) */
 header {
-
+    background-color: #000000;
 }
 
 nav {
+ 
+}
 
+h1 { 
+    color: #007BFF;
+    font-weight: bolder;
+    font-size: xx-large;
+    position: relative;
+    padding-left: 4.5rem;
 }
 
 h2 {
@@ -277,14 +285,15 @@ body {
 }
 
 /* ADD FLOATING SVG LOGO BEFORE THE H1 */
- {
+h1::before {
     content: "";
-
+    position: absolute;
     left:-.5rem;
     width: 3.75rem;
     height: 3.75rem;
     background: url('images/vanguard-logo.svg') no-repeat center/contain;
-
+    transform: translateY(-50%);
+    pointer-events: none;
 }
 /* THIS ONE IS DONE FOR YOU */
 #bar-chart {
