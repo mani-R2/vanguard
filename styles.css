@@ -305,7 +305,7 @@ body {
     background: var(--charcoal);
     border-radius: 10px;
     position: relative;
-    transition: ;
+    transition: height 0.6 ease;
     height: 0;
 }
 /* THIS ONE IS DONE FOR YOU */
