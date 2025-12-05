@@ -360,3 +360,18 @@ h1::before {
 
 
 /* MEDIA QUERIES (LARGE) */
+
+    .results-container {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 3rem;
+    }
+
+    .results-table {
+        width: 45%;
+        font-size: 1.1rem;
+    }
+
+    .bar-chart {
+        width: 45%;
+    }
